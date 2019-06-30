@@ -4,6 +4,59 @@
   
   <title>Fox</title>
 
+  <style>
+
+    :root{
+      --bg: rgba(255, 184, 176, 0.336);
+      --bdbody: .3em groove rgba(179, 24, 7, 0.856);
+      --bdpicture: .4em solid rgba(117, 106, 0, 0.884);
+      --bdpicture2: .4em solid rgb(211, 168, 26);
+      --bdtext: .4em dashed rgb(211, 168, 26);
+      --bgtext: rgb(255, 230, 0);
+    }
+
+    body{
+      width: 35%;
+      margin: auto;
+      box-sizing: border-box;
+      padding: 1em;
+      border: var(--bdbody);
+      background: white;
+      box-shadow: 100em 100em  var(--bg) inset;
+    }
+
+    .picture{
+      width: 80%;
+      height: 8em;
+      box-sizing: border-box;
+      border-top: var(--bdpicture);
+      border-left: var(--bdpicture);
+      border-right: var(--bdpicture2);
+      border-bottom: var(--bdpicture2);
+      margin-bottom: 1em;
+    }
+
+    .important{
+      font-weight: bold;
+      text-decoration: underline;
+    }
+
+    p{
+      width: 100%;
+    }
+  
+    #text{
+      font-size: 1.1em;
+      width: 80%;
+      height: 14em;
+      overflow: auto;
+      box-sizing: border-box;
+      background: var(--bgtext);
+      border: var(--bdtext);
+    }
+  
+  </style>
+
  </head>
  <body>
 <h1>Fox</h1>
